@@ -26,7 +26,7 @@ if len(sys.argv) == 2 and sys.argv[1] == "english":
 else:
     PHRASE_FIRST = False
 
-# load up the words from the website
+# load up words from the website
 for word in urlopen(WORD_URL).readlines():
     WORDS.append(str(word.strip(), encoding="utf-8"))
 
