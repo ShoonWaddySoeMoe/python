@@ -2,7 +2,7 @@ from sys import argv
 #read the WYSS section for how to run this 
 script,first, second, third = argv
 
-print("The script is called:", script)
+print("The script called:", script)
 print("Your first variable is:", first)
 print("Your second variale is:", second)
 print("Your third variale is:", third)
