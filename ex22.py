@@ -1,6 +1,6 @@
 import sys
 
-2 script, input_encoding, error = sys.argv               3                                  
+2 script, input_encod, error = sys.argv               3                                  
 
 4
 
